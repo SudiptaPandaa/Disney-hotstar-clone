@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Disney+Hotstar Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="images/logo.png" class="brand-logo" alt="" />
+      <ul class="nav-links">
+        <li class="nav-items"><a href="#" class="colored-text"><b>TV</b></a></li>
+        <li class="nav-items"><a href="#" class="colored-text"><b>Movies</b></a></li>
+        <li class="nav-items"><a href="#" class="colored-text"><b>Sports</b></a></li>
+        <li class="nav-items"><a href="#" class="colored-text"><b>Hotstar Specials</b></a></li>
+      </ul>
+      <div class="right-container">
+        <button class="sub-btn">&#128269;</button>
+        <input type="text" class="search-box" placeholder="search" />
+        <button class="sub-btn">Subscribe</button>
+        <a href="#" class="login-link">Login</a>
+      </div>
+    </nav>
+
+    <div class="carousel-container">
+      <div class="carousel">
+      </div>
+    </div>
+    <div class="video-card-container">
+      <div class="video-card">
+        <img src="images/disney.png" class="video-card-image" alt="" />
+        <video src="videos/disney.mp4" muted loop class="card-video"></video>
+      </div>
+      <div class="video-card">
+        <img src="images/pixar.png" class="video-card-image" alt="" />
+        <video src="videos/pixar.mp4" muted loop class="card-video"></video>
+      </div>
+      <div class="video-card">
+        <img src="images/marvel.png" class="video-card-image" alt="" />
+        <video src="videos/marvel.mp4" muted loop class="card-video"></video>
+      </div>
+      <div class="video-card">
+        <img src="images/star-wars.png" class="video-card-image" alt="" />
+        <video src="videos/star-war.mp4" muted loop class="card-video"></video>
+      </div>
+      <div class="video-card">
+        <img src="images/geography.png" class="video-card-image" alt="" />
+        <video
+          src="videos/geographic.mp4"
+          muted
+          loop
+          class="card-video"
+        ></video>
+      </div>
+    </div>
+    <h1 class="title">Latest Releases</h1>
+    <div class="movies-list">
+      <button class="pre-btn" title="btn"><img src="images/pre.png" alt="" /></button>
+      <button class="nxt-btn" title="btn"><img src="images/next.png" alt="" /></button>
+      <div class="card-container">
+        <div class="card">
+          <img src="imgs/poster 1.png" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">Skanda</h2>
+            <h6 class="des">A headstrong Ram challenges the two influential CMs for a personal vendetta. Will this daring move bring about the reckoning he seeks?</h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imgs/2.png" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">Believe- The Diwali Miracle</h2>
+            <h6 class="des">Virat Kohli discusses how he created the Diwali miracle as he watched his amazing century against Pakistan in the ICC T20 World Cup 2022.</h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imgs/poster 3.png" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">LOVE IN FAIRHOPE</h2>
+            <h6 class="des">5 women across 4 different generations navigating life and love in Fairhope, Alabama</h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imgs/poster 4.png" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">MY3- A Robotic Love Story</h2>
+            <h6 class="des">A rich entrepreneur struggling with an allergy to human touch finds a solution in a robot. But when it crashes before delivery, a 'real' replacement is sent.</h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imgs/5.png" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">LIVING FOR THE DEAD</h2>
+            <h6 class="des">Queer ghost hunters crisscross the country, helping the living by healing the dead.</h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imgs/i6.png" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">KING OF KOTHA</h2>
+            <h6 class="des">In the ominous village of Kotha, 'King' Raju makes a comeback with a cop's aid. Challenging Kannan's rule, he ignites a showdown of power and retribution.</h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imgs/7.png" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">VALATTY- TALE OF TALES</h2>
+            <h6 class="des">A poignant love story of Tomy and Amalu, narrated from the heart of two dogs who defy societal expectations and chase a love that transcends all barriers.</h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imgs/8.png" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">BLACK CAKE</h2>
+            <h6 class="des">Two siblings must set aside their differences to deal with their mother's death and her hidden past.</h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imgs/9.png" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">AARYA- SEASON 3</h2>
+            <h6 class="des">The Sherni is back again, and she is all set to end it all. Will she succeed?</h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imgs/10.png" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">QUIZ LADY</h2>
+            <h6 class="des">A game show-obsessed young woman and her estranged, train-wreck of a sister must work together to help cover their mother's gambling debts.</h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imgs/11.png" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">THE SANTA CLAUSES</h2>
+            <h6 class="des">After nearly three decades of being Santa Claus, Scott Calvin's magic begins to falter. Soon, Scott begins to rethink his role as Santa and as a father.</h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imgs/12.png" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">BEHIND THE ATTRACTION</h2>
+            <h6 class="des">Behind the Attraction takes you on a wild ride behind Disney Parks' most iconic attractions! Watch Behind the Attraction</h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  <h1 class="title">Popular Shows</h1>
+  <div class="movies-list">
+  <button class="pre-btn" title="btn"><img src="images/pre.png" alt=""></button>
+  <button class="nxt-btn" title="btn"><img src="images/next.png" alt=""></button>
+  <div class="card-container">
+    <div class="card">
+      <img src="imgs/p1.png" class="card-img" alt="">
+      <div class="card-body">
+        <h2 class="name">ANUPAMA</h2>
+        <h6 class="des">Despite the many challenges thrown her way, Anupama begins a new chapter of her life post-divorce. Head held always high, what's waiting for her next?</h6>
+        <button class="watchlist-btn">Add to Watchlist</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="imgs/p2.png" class="card-img" alt="">
+      <div class="card-body">
+          <h2 class="name">AAKHRI SACH</h2>
+          <h6 class="des">A bone-chilling tale that unravels the twisted ties of fate, trapped secrets of a family and the most terrifying horrors an investigator has ever seen.</h6>
+          <button class="watchlist-btn">Add to Watchlist</button>
+      </div>
+    </div>
+    <div class="card">
+        <img src="imgs/p3.png" class="card-img" alt="">
+        <div class="card-body">
+              <h2 class="name">DORAEMON</h2>
+              <h6 class="des">Trouble seems to follow Nobita around. Fortunately for him, he's got Doraemon, a trusty cat-type robot from the 22nd century.</h6>
+              <button class="watchlist-btn">Add to Watchlist</button>
+        </div>
+    </div>
+    <div class="card">
+      <img src="imgs/p4.png" class="card-img" alt="">
+      <div class="card-body">
+            <h2 class="name">CRIMINAL JUSTICE- ADHURA SACH</h2>
+            <h6 class="des">When a teenage star's brother becomes the prime suspect in her murder, Madhav Mishra takes the case, only to realise he has to first tackle his client's lies.</h6>
+            <button class="watchlist-btn">Add to Watchlist</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="imgs/p5.png" class="card-img" alt="">
+      <div class="card-body">
+            <h2 class="name">THE NIGHT MANAGER</h2>
+            <h6 class="des">A hotel's night manager is the only weapon against a dangerous arms dealer. With innocent lives at stake, Shaan is out to destroy Shelly's demonic world.</h6>
+            <button class="watchlist-btn">Add to Watchlist</button>
+      </div>
+    </div>
+    <div class="card">
+        <img src="imgs/p6.png" class="card-img" alt="">
+        <div class="card-body">
+            <h2 class="name">TAAZA KHABAR</h2>
+            <h6 class="des">A public toilet caretaker's poverty-stricken life takes a drastic U-turn when he helps an old woman. How long will fate smile upon him?</h6>
+                  <button class="watchlist-btn">Add to Watchlist</button>
+        </div>
+    </div>
+    <div class="card">
+      <img src="imgs/p7.png" class="card-img" alt="">
+      <div class="card-body">
+            <h2 class="name">SIMPLE SAMOSA</h2>
+            <h6 class="des">A group of friendly snacks with Simple Samosa as their leader go on endless adventures and solve mysteries.</h6>
+            <button class="watchlist-btn">Add to Watchlist</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="imgs/p8.png" class="card-img" alt="">
+        <div class="card-body">
+            <h2 class="name">NOVEMBER STORY</h2>
+            <h6 class="des">A celebrated crime novelist suffering from Alzheimer's is found at a murder scene with no memory of what happened. Now, it is up to his daughter to save him.</h6>
+            <button class="watchlist-btn">Add to Watchlist</button>
+        </div>
+    </div>
+    <div class="card">
+      <img src="imgs/p9.png" class="card-img" alt="">
+      <div class="card-body">
+        <h2 class="name">DUCK TALES</h2>
+        <h6 class="des">When Donald Duck leaves town to join the Navy, nephews Huey, Dewey and Louie are left in the care of uncle, Scrooge McDuck.</h6>
+        <button class="watchlist-btn">Add to Watchlist</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="imgs/p10.png" class="card-img" alt="">
+      <div class="card-body">
+        <h2 class="name">LIVE TELECAST</h2>
+        <h6 class="des">TV show director Jenifer Matthew will do anything to win the TRP game, and a supposedly haunted house in a sleepy hill station may just be her golden ticket.</h6>
+        <button class="watchlist-btn">Add to Watchlist</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="imgs/p11.png" class="card-img" alt="">
+      <div class="card-body">
+        <h2 class="name">MS MARVEL</h2>
+        <h6 class="des">Kamala Khan, a Muslim American teenager growing up in Jersey City.</h6>
+        <button class="watchlist-btn">Add to Watchlist</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="imgs/p12.png" class="card-img" alt="">
+      <div class="card-body">
+        <h2 class="name">BORN IN AFRICA</h2>
+        <h6 class="des">Filmed from the point of view of cubs and baby hyenas, the series tells the story of the babies' first steps and reveals all the stress the parents' experience. </h6>
+        <button class="watchlist-btn">Add to Watchlist</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <h1 class="title">Top Rated On IMDb</h1>
+  <div class="movies-list">
+  <button class="pre-btn" title="btn"><img src="images/pre.png" alt=""></button>
+  <button class="nxt-btn" title="btn"><img src="images/next.png" alt=""></button>
+  <div class="card-container">
+    <div class="card">
+      <img src="imgs/t1.png" class="card-img" alt="">
+      <div class="card-body">
+        <h2 class="name">83</h2>
+        <h6 class="des">Chronicling the historic 1983 Cricket World Cup, thirteen underdogs led by Kapil Dev fight and win against all odds to put India on the map.</h6>
+        <button class="watchlist-btn">Add to Watchlist</button>
+      </div>
+    </div>
+    <div class="card-container">
+      <div class="card">
+        <img src="imgs/t2.png" class="card-img" alt="">
+        <div class="card-body">
+          <h2 class="name">TAQDEER</h2>
+          <h6 class="des">Avinash gets separated from his childhood love Priya. Will fate play its part and bring the two estranged lovers together as grown-ups?</h6>
+          <button class="watchlist-btn">Add to Watchlist</button>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <img src="imgs/t3.png" class="card-img" alt="">
+          <div class="card-body">
+            <h2 class="name">अंग्रेजी MEDIUM</h2>
+            <h6 class="des">Champak, a simple Mithai-seller, will go to any lengths to fulfil daughter Tarika's dream of studying in London, triggering a chain of hilarious misadventures.</h6>
+            <button class="watchlist-btn">Add to Watchlist</button>
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <img src="imgs/t4.png" class="card-img" alt="">
+            <div class="card-body">
+              <h2 class="name">PINK</h2>
+              <h6 class="des">When three single city girls meet a politician's kin and his friends, a night out becomes a nightmare, which then causes a clash of societal norms and justice.</h6>
+              <button class="watchlist-btn">Add to Watchlist</button>
+            </div>
+          </div>
+          <div class="card-container">
+            <div class="card">
+              <img src="imgs/t5.png" class="card-img" alt="">
+              <div class="card-body">
+                <h2 class="name">Stree</h2>
+                <h6 class="des">The small town of Chanderi is haunted by a vengeful spirit, Stree. Soon enough, Vicky, a goofy, gifted tailor, becomes an unlikely saviour for his kind.</h6>
+                <button class="watchlist-btn">Add to Watchlist</button>
+              </div>
+            </div>
+            <div class="card-container">
+              <div class="card">
+                <img src="imgs/t6.png" class="card-img" alt="">
+                <div class="card-body">
+                  <h2 class="name">BALA</h2>
+                  <h6 class="des">Balmukund Shukla's pride lies in his hair, but premature baldness robs him of more than just his looks. With love at stake, will he have a 'hairy'-tale ending?</h6>
+                  <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="imgs/t7.png" class="card-img" alt="">
+                <div class="card-body">
+                  <h2 class="name">सीता रामम</h2>
+                  <h6 class="des">On a letter-delivering task, Afreen learns of a 20-year-old romance set amidst a war. Her quest to trace the lovers makes her embrace humanity beyond borders.</h6>
+                  <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="imgs/t8.png" class="card-img" alt="">
+                <div class="card-body">
+                  <h2 class="name">ARJUN REDDY</h2>
+                  <h6 class="des">A short-tempered yet brilliant young medical surgeon immerses himself in drugs and alcohol when his lady-love is forced to marry someone else.</h6>
+                  <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="imgs/t9.png" class="card-img" alt="">
+                <div class="card-body">
+                  <h2 class="name">UGLY</h2>
+                  <h6 class="des">When a 10-year-old girl goes missing, her stepfather races against time to investigate the kidnapping. Can he find her before it's too late?
+                  </h6>
+                  <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="imgs/t10.png" class="card-img" alt="">
+                <div class="card-body">
+                  <h2 class="name">RAID</h2>
+                  <h6 class="des">Fearless income tax officer Amay Patnaik carries out a risky raid at the mansion of the most powerful man in Lucknow. Inspired by real-life events.</h6>
+                  <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="imgs/t11.png" class="card-img" alt="">
+                <div class="card-body">
+                  <h2 class="name">DIL BECHARA</h2>
+                  <h6 class="des">Brought together by a tragic twist, Kizie and Manny embark on a bittersweet journey into the heart of that crazy little thing called 'life'.</h6>
+                  <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="imgs/t12.png" class="card-img" alt="">
+                <div class="card-body">
+                  <h2 class="name">Gulmohar(गुलमोहर)</h2>
+                  <h6 class="des">Batra family has just four days left to vacate their house of 34 years. Amidst the mayhem, uncertainties of the future, insecurities and secrets surface.</h6>
+                  <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    <script src="script.js" async></script>
+  </body>
+</html>

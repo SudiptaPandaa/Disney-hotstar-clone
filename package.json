@@ -1,0 +1,88 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Shawshank Redemption",
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "image": "shawshank_redemption.jpg",
+      "video": "shawshank_redemption.mp4"
+    },
+    {
+      "id": 2,
+      "title": "The Godfather",
+      "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "image": "godfather.jpg",
+      "video": "godfather.mp4"
+    },
+    {
+      "id": 3,
+      "title": "The Dark Knight",
+      "description": "When the menace known as The Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+      "image": "dark_knight.jpg",
+      "video": "dark_knight.mp4"
+    },
+    {
+      "id": 4,
+      "title": "Pulp Fiction",
+      "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "image": "pulp_fiction.jpg",
+      "video": "pulp_fiction.mp4"
+    },
+    {
+      "id": 5,
+      "title": "Inception",
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+      "image": "inception.jpg",
+      "video": "inception.mp4"
+    },
+    {
+      "id": 6,
+      "title": "Forrest Gump",
+      "description": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold through the perspective of an Alabama man with an IQ of 75.",
+      "image": "forrest_gump.jpg",
+      "video": "forrest_gump.mp4"
+    },
+    {
+      "id": 7,
+      "title": "The Matrix",
+      "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+      "image": "matrix.jpg",
+      "video": "matrix.mp4"
+    },
+    {
+      "id": 8,
+      "title": "Fight Club",
+      "description": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.",
+      "image": "fight_club.jpg",
+      "video": "fight_club.mp4"
+    },
+    {
+      "id": 9,
+      "title": "The Silence of the Lambs",
+      "description": "A young FBI cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.",
+      "image": "silence_of_the_lambs.jpg",
+      "video": "silence_of_the_lambs.mp4"
+    },
+    {
+      "id": 10,
+      "title": "The Social Network",
+      "description": "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea.",
+      "image": "social_network.jpg",
+      "video": "social_network.mp4"
+    },
+    {
+      "id": 11,
+      "title": "The Grand Budapest Hotel",
+      "description": "A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel's glorious years of the 1930s.",
+      "image": "grand_budapest_hotel.jpg",
+      "video": "grand_budapest_hotel.mp4"
+    },
+    {
+      "id": 12,
+      "title": "La La Land",
+      "description": "While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.",
+      "image": "la_la_land.jpg",
+      "video": "la_la_land.mp4"
+    }
+  ]
+}
